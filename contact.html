@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial scale=1.0">
+     <title>The Aurora Borealis</title>   
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,200;1,300&family=Sono:wght@200;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="logoggo.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul> 
+                   <li><a href="home.html">HOME</a></li>
+                   <li><a href="travel%20tips.html">TRAVEL TIPS</a></li>
+                   <li><a href="destination.html">DESTINATIONS</a></li> 
+               </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <h0>Contact Us</h0>
+           
+    </section>
+    
+<!----------Contact Us------>
+
+    <section class="location">
+    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.102874404156!2d123.37312481482674!3d13.405956490571983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a199a3e62f19ed%3A0xd70d166421a51a16!2sCamarines%20Sur%20Polytechnic%20Colleges!5e0!3m2!1sfil!2sph!4v1670854580306!5m2!1sfil!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    </section>
+    
+    <section class="contact-us">
+    
+    <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home" ></i>
+              <span>
+                  <h5>4434, National Rd, Nabua, Camarines Sur</h5>
+                  <p>Camarines Sur Polytechnic Colleges</p>
+              </span>
+            </div>
+             <div>
+            <i class="fa fa-phone" ></i>
+              <span>
+                  <h5>09435263765</h5>
+                  <p>Tuesday, 8:00AM–5:00PM</p>
+              </span>
+            </div>
+             <div>
+            <i class="fa fa-envelope-o" ></i>
+              <span>
+                  <h5>info@gmail.com</h5>
+                  <p>Tell us your thoughts</p>
+              </span>
+            </div>
+        </div>
+        <div class="contact-col">
+        
+            <form action="">
+               <input type="text" placeholder="Enter your Name" required>
+              <input type="email" placeholder="Enter email Adress" required>
+              <input type="text" placeholder="Enter your Subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn green-btn">Send Message</button>
+            </form>
+        </div>
+        </div>
+    
+    </section>
+    
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This is a project in Introduction Computing! Hoping to get a mark that would resonate this work . Thank You!</p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-linkedin" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-twitter" ></i>
+    
+    </div>
+    <p>Made with <i class="fa fa-heart-o" ></i> by Marjon Catorce  </p>
+     <p>Made with <i class="fa fa-heart-o" ></i> John Lenard Obiasca  </p>
+     <p>Made with <i class="fa fa-heart-o" ></i> by Gwyneth Buenconsejo </p>
+</section>
+    
+    
+<!----------JavaScript for Toggle Menu-------->    
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function  showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+     
+</script>
+</body>
+</html>
